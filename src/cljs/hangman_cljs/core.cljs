@@ -67,3 +67,5 @@
      [:pre (pr-str @state)]]]
    (.getElementById js/document "app")))
 
+(defn init! []
+  (mount-root))
