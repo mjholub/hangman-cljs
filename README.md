@@ -1,16 +1,14 @@
 # hangman-cljs
 
-FIXME: description
+A simple hangman P2P game built using HyperUI, Reagent, WebRTC and Clojure(Script).
 
 ## Installation
 
-Download from http://example.com/FIXME.
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar hangman-cljs-0.1.0-standalone.jar [args]
+The game is currently work in progress but the concept is dead simple,
+you just run the game locally and send your peer IDs to each other.
 
 ## Options
 
@@ -18,27 +16,20 @@ FIXME: listing of options this app accepts.
 
 ## Examples
 
-...
+TODO: add content
 
 ### Bugs
 
+Game is currently work in progress so don't expect much.
 ...
 
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2024 FIXME
+Copyright © 2024 Marcelina Hołub
 
 This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
+terms of the GNU Affero General Public License 3.0 or later which is available at:
 
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+
+https://www.gnu.org/licenses/agpl-3.0.html
