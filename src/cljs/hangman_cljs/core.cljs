@@ -4,7 +4,13 @@
 
 ;; Holds the game states, e.g. messages, word, guesses, etc."
 (defonce state
-  (reagent/atom  {:messages []}))
+  (reagent/atom  {:messages []
+                  :word "hangman"
+                  :incorrect-guesses 0
+                  :max-incorrect 6
+                  :game-over false
+                  :peer-conn nil
+                  :data-chan nil}))
 
 (defn handle-message
   "Handles messages from the other player."
